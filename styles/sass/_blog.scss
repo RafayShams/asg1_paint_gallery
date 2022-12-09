@@ -1,0 +1,26 @@
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  button {
+    background: $secondaryButt;
+    margin-top: 20px;
+  }
+  h2 {
+    line-height: 3rem;
+  }
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.textContainer,
+.imageContainer {
+  width: 50%;
+}
+
+.textContainer {
+  padding: 100px;
+  background: $secondaryBack;
+}
